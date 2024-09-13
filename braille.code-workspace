@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "name": "src",
+      "path": "src"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+
+  "settings": {
+    "editor.fontSize": 12,
+    "editor.lineHeight": 1.3,
+    "editor.padding.top": 0,
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "trailing",
+    "editor.renderControlCharacters": true,
+    "explorer.sortOrder": "type",
+    "terminal.integrated.fontSize": 12,
+
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    "typescript.suggest.includeCompletionsForImportStatements": true,
+
+    "files.exclude": {
+      // "**/.vscode": true,
+      // "**/.git": true,
+      // "**/.dev": true,
+      // "**/build": true,
+      // "**/node_modules": true,
+      // "**package-lock.json": true
+    },
+
+    "liveServer.settings.root": "/public",
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.multiRootWorkspaceName": "root"
+  }
+}
